@@ -4,7 +4,7 @@
 # See the file COPYING for more details.
 import buildVars
 import subprocess
-
+name  = buildVars.addon_info["addon_name"]
 version = buildVars.addon_info["addon_version"]
 subprocess.call([
 	"git",
@@ -15,4 +15,7 @@ subprocess.call([
 ])
 subprocess.call([
 	"git", "push", "--tags"
+])
+subprocess.call([
+	"gh", "release", "create", version, "--generate-notes", name+"-"+version+".nvda-addon"
 ])

@@ -20,7 +20,7 @@ addon_info = {
 	"addon_description" : _("""verbessert die Zugaenglichkeit der Realtek audio console fuer windows 10
 """),
 	# version
-	"addon_version" : "0.6",
+	"addon_version" : "0.7",
 	# Author(s)
 	"addon_author" : u"David Parduhn <xkill85@gmx.net>",
 	# URL for the add-on documentation support

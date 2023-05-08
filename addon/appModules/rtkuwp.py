@@ -19,7 +19,7 @@ class rtkuwplistitem(ListItem):
 		for x in self.children:
 			childname = x.name
 			childrole = x.role
-			if childname and childrole == controlTypes.ROLE_STATICTEXT:
+			if childname and childrole in [controlTypes.ROLE_STATICTEXT, controlTypes.ROLE_GROUPING]:
 				l.append(childname) 
 		return ', '.join(l)
 

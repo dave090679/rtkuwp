@@ -20,14 +20,14 @@ addon_info = {
 	"addon_description" : _("""improve accessibility for realtek hd audio manager and (some versions of) realtek audio console in Windows 10
 """),
 	# version
-	"addon_version" : "0.8",
+	"addon_version" : "0.9",
 	# Author(s)
 	"addon_author" : u"David Parduhn <xkill85@gmx.net>",
 	# URL for the add-on documentation support
 	"addon_url" : "https://github.com/dave090679/rtkuwp/releases",
 	# Documentation file name
 	"addon_docFileName" : "readme.html",
-	"lastTestedNVDAVersion": "2024.1",
+	"lastTestedNVDAVersion": "2025.1",
 }
 
 
